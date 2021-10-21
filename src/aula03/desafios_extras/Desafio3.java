@@ -1,8 +1,8 @@
-package aula03.mesa_de_trabalho;
+package aula03.desafios_extras;
 
 import java.util.Scanner;
 
-public class Desafio2 {
+public class Desafio3 {
   public static void main(String[] args) {
     // Inicialização do Scanner
     Scanner sc = new Scanner(System.in);
@@ -75,13 +75,25 @@ public class Desafio2 {
       return 1;
     } else if(j1.equals("PEDRA") && j2.equals("PAPEL")){
       return 2;
+    } else if(j1.equals("PEDRA") && j2.equals("SPOCK")){
+      return 2;
     } else if(j1.equals("PAPEL") && j2.equals("TESOURA")){
       return 2;
     } else if(j1.equals("PAPEL") && j2.equals("PEDRA")){
       return 1;
+    } else if(j1.equals("PAPEL") && j2.equals("SPOCK")){
+      return 1;
     } else if(j1.equals("TESOURA") && j2.equals("PAPEL")){
       return 1;
     } else if(j1.equals("TESOURA") && j2.equals("PEDRA")){
+      return 2;
+    } else if(j1.equals("TESOURA") && j2.equals("SPOCK")){
+      return 2;
+    } else if(j1.equals("SPOCK") && j2.equals("PEDRA")){
+      return 1;
+    } else if(j1.equals("SPOCK") && j2.equals("TESOURA")){
+      return 1;
+    } else if(j1.equals("SPOCK") && j2.equals("PAPEL")){
       return 2;
     } else {
       return -1;

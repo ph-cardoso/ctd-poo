@@ -24,5 +24,7 @@ public class Exercicio1 {
 
     // Impressão
     System.out.printf("Olá %s %s! Posso te chamar de %s?", nome, sobrenome, apelido.toUpperCase());
+
+    scanner.close();
   }
 }

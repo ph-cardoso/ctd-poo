@@ -11,6 +11,9 @@ public class Desafio1 {
     System.out.printf("Digite a quantidade de números primos a ser mostrada: ");
     int n = sc.nextInt();
 
+    // Close do scanner
+    sc.close();
+
     // Variáveis auxiliares
     int cont = 0;
     int aux = 1;

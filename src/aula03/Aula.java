@@ -1,6 +1,5 @@
 package aula03;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Aula {
@@ -19,6 +18,8 @@ public class Aula {
 
     System.out.printf("\n\n%s come %.2fkg de ração\n", nome, quantidade);
     System.out.printf("%s precisa de %d pacotes\n", nome, qtdPacotes);
+
+    entrada.close();
   }
 
   public static int quantPacotes(float quantidade){
@@ -32,12 +33,14 @@ public class Aula {
     while(kilo < quantidade){
       System.out.println("Digite o peso do pacote: ");
       pacoteAux = scanner2.nextLine();
+
       pacote = Float.parseFloat(pacoteAux);
 
       kilo += pacote;
       qtdPacotes++;
     }
 
+    scanner2.close();
     return qtdPacotes;
   }
 }

@@ -20,6 +20,8 @@ public class Exercicio1 {
 
     // Chamada da função
     isPrime(n);
+
+    scanner.close();
   }
 
   public static void isPrime(int n){

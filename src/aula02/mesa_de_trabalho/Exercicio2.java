@@ -26,6 +26,7 @@ public class Exercicio2 {
 
     System.out.printf ("o maior número é: %d", maiorNumero(num1, num2, num3));
 
+    scanner.close();
   }
 
   public static int maiorNumero(int n1, int n2, int n3) {

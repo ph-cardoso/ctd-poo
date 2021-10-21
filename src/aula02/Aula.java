@@ -35,5 +35,7 @@ public class Aula {
 
     // Impressão das informações
     System.out.printf("%s %s (%c.%c.) nasceu em %s/%s/%s", nome, sobrenome, firstLetterNome, firstLetterSobrenome, day, month, year);
+
+    scanner.close();
   }
 }
