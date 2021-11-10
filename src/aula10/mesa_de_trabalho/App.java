@@ -19,9 +19,12 @@ public class App {
         System.out.printf("\nInformações da nave:\n");
         System.out.printf("PosX: %d\n", nave.getPosx());
         System.out.printf("PosY: %d\n", nave.getPosy());
+        System.out.printf("Direcao: %c\n", nave.getDirecao());
         nave.irA(5, 2, 'N');
+        nave.girar('S');
         System.out.printf("PosX: %d\n", nave.getPosx());
         System.out.printf("PosY: %d\n", nave.getPosy());
+        System.out.printf("Direcao: %c\n", nave.getDirecao());
 
         // Informações Asteroide
         System.out.printf("\nInformações do Asteroide:\n");
