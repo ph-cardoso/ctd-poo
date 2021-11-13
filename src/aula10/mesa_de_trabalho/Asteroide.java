@@ -14,4 +14,12 @@ public class Asteroide extends Objeto {
         super.setPosy(getPosy() + y);
         super.setDirecao(direcao);
     }
+
+    public int getDanos() {
+        return danos;
+    }
+
+    public void setDanos(int danos) {
+        this.danos = danos;
+    }
 }
