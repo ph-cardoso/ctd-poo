@@ -5,7 +5,6 @@ public class Cachorro extends Animal {
         super(nome, idade);
     }
 
-    @Override
     public void emitirSom() {
         System.out.println("Sons de cachorro.mp3");
     }

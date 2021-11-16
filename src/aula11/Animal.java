@@ -9,9 +9,7 @@ public abstract class Animal {
         this.idade = idade;
     }
 
-    public void emitirSom(){
-        System.out.println("Som padrão");
-    }
+    public abstract void emitirSom();
 
     //Getters and Setters
     public String getName() {
