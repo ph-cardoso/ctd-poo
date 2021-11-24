@@ -22,4 +22,46 @@ public abstract class Embarcacao {
             return precoBase;
         }
     }
+
+    public Capitao getCapitao() {
+        return capitao;
+    }
+
+    public void setCapitao(Capitao capitao) {
+        this.capitao = capitao;
+    }
+
+    public double getPrecoBase() {
+        return precoBase;
+    }
+
+    public void setPrecoBase(double precoBase) {
+        this.precoBase = precoBase;
+    }
+
+    public double getValorAdicional() {
+        return valorAdicional;
+    }
+
+    public void setValorAdicional(double valorAdicional) {
+        this.valorAdicional = valorAdicional;
+    }
+
+    public int getAnoFabricacao() {
+        return anoFabricacao;
+    }
+
+    public void setAnoFabricacao(int anoFabricacao) {
+        this.anoFabricacao = anoFabricacao;
+    }
+
+    public double getComprimento() {
+        return comprimento;
+    }
+
+    public void setComprimento(double comprimento) {
+        this.comprimento = comprimento;
+    }
+
+
 }
