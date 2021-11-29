@@ -10,7 +10,7 @@ public class Main {
 
             paciente.darAlta(LocalDate.of(2021,10,21));
         } catch (PacienteException e) {
-            System.out.println(e.getMessage());
+            System.err.println(e.getMessage());
         }
     }
 }
